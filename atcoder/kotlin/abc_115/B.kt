@@ -3,7 +3,7 @@ package kotlin.abc_115
 /**
  * @author kojin15.
  */
-fun main() {
+fun main(args: Array<String>) {
     val N = readLine()!!.toInt()
     val p = (1..N).map { readLine()!!.toInt() }.sortedDescending()
     var S = p.first() / 2

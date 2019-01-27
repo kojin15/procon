@@ -3,7 +3,7 @@ package kotlin.abc_116
 /**
  * @author kojin15.
  */
-fun main() {
+fun main(args: Array<String>) {
     val s = readLine()!!.toInt()
     val a = mutableListOf<Int>()
     a.add(s)
