@@ -3,7 +3,7 @@ package kotlin.abc_113
 /**
  * @author kojin15.
  */
-fun main(args: Array<String>) {
+fun main() {
     val (N, M) = readLine()!!.split(" ").map { it.toInt() }
     val Plist = IntArray(N) {1}
     val PY = (1..M).mapIndexed { index, i ->

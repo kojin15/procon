@@ -3,7 +3,7 @@ package kotlin.abc_112
 /**
  * @author kojin15.
  */
-fun main(args: Array<String>) {
+fun main() {
     val N = readLine()!!.toInt()
     val xyh = (1..N).map { readLine()!!.split(" ").map { it.toInt() } }
     var cx = 0; var cy = 0; var H = Int.MAX_VALUE

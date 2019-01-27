@@ -3,7 +3,7 @@ package kotlin.abc_116
 /**
  * @author kojin15.
  */
-fun main(args: Array<String>) {
+fun main() {
     val N = readLine()!!.toInt()
     var h = readLine()!!.split(" ").map { it.toInt() }.toIntArray()
     var result = 0

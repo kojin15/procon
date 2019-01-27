@@ -3,7 +3,7 @@ package kotlin.abc_113
 /**
  * @author kojin15.
  */
-fun main(args: Array<String>) {
+fun main() {
     val N = readLine()!!.toInt()
     val (T, A) = readLine()!!.split(" ").map { it.toInt() }
     val base = A - T
